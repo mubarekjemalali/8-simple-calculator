@@ -1,0 +1,63 @@
+body h1,h2,h3,h4{
+    text-align: center;
+}
+
+.form .formType {
+    display: flex;
+    margin-top: 5px;
+}
+
+.formType .form-label {
+    
+    width: 100px;
+}
+
+.formType.form-input {
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+.form-body input[type='text']:not(.form-input) {
+    width: 50px;
+}
+
+.formTypebutton {
+    background: #6d4342;
+}
+
+.formType.hint, footer .back {
+    color: #573131;
+    margin-left: 5px;
+}
+
+fieldset{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+fieldset legend {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 2px;
+   background-color: white;
+    
+}
+
+fieldset p{
+    text-align: center;
+}
+
+.yr {
+    width: 500px;
+    padding: 0 20px 20px;
+    color: #10111f;
+    margin: auto auto;
+}
+
+footer a, div.form-body a{
+    height: 24px;
+    display: inline-flex;
+    text-decoration: none;
+
+}
