@@ -1,4 +1,7 @@
-body h1,h2,h3,h4{
+body h1,
+h2,
+h3,
+h4 {
     text-align: center;
 }
 
@@ -8,7 +11,7 @@ body h1,h2,h3,h4{
 }
 
 .formType .form-label {
-    
+
     width: 100px;
 }
 
@@ -25,26 +28,28 @@ body h1,h2,h3,h4{
     background: #6d4342;
 }
 
-.formType.hint, footer .back {
+.formType.hint,
+footer .back {
     color: #573131;
     margin-left: 5px;
 }
 
-fieldset{
+fieldset {
     border-radius: 5px;
     padding: 5px;
     text-align: left;
+    border: 1px solid red;
 }
 
 fieldset legend {
-    font-size: 18px;
+    font-size: 22px;
     padding: 5px;
     border-radius: 2px;
-   background-color: white;
-    
+    background-color: white;
+
 }
 
-fieldset p{
+fieldset p {
     text-align: center;
 }
 
@@ -55,7 +60,8 @@ fieldset p{
     margin: auto auto;
 }
 
-footer a, div.form-body a{
+footer a,
+div.form-body a {
     height: 24px;
     display: inline-flex;
     text-decoration: none;
